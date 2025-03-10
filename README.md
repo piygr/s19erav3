@@ -7,9 +7,8 @@ We have a **4x4 GridWorld**, where an agent starts at the **top-left corner (sta
 
 We apply **Value Iteration** using the **Bellman equation**:
 
-\[
-V(s) = \sum_{s'} P(s'|s,a) [R + \gamma V(s')]
-\]
+<img width="312" alt="Screenshot 2025-03-10 at 5 24 29 PM" src="https://github.com/user-attachments/assets/b90c30cd-39ac-42f3-b986-888d22fad60e" />
+
 
 where:
 - \( P(s'|s,a) \) is the transition probability (equal for all actions)
